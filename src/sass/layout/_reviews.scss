@@ -86,6 +86,7 @@
     transparent 29px,
     #e1e1e1 30px
   );
+
   @media screen and (min-width: 768px) {
     font-weight: 500;
     font-size: 14px;
@@ -94,6 +95,7 @@
     margin-top: 37px;
     margin-bottom: 44px;
   }
+
   @media screen and (min-width: 1280px) {
     font-weight: 500;
     font-size: 16px;
@@ -118,10 +120,12 @@
     font-size: 16px;
     margin-bottom: 32px;
   }
+
   @media screen and (min-width: 1280px) {
     font-weight: 500;
     font-size: 20px;
   }
+
   &::before {
     content: '';
     position: absolute;
